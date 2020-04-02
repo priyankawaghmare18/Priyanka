@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "rajashri",
+      "password": "Raj12345"
+    },
+    {
+      "username": "f",
+      "password": "d",
+      "id": 2
+    },
+    {
+      "username": null,
+      "password": null,
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
