@@ -1,0 +1,13 @@
+<form [formGroup]="registrationForm" (ngSubmit)="registerUser()">
+  <div class="col-xs-12">  <label>Enter your user name:
+    <input type="text" formControlName="username">
+</label></div>
+<div><label>Enter your password:
+    <input type="password" formControlName="password">
+</label></div>
+<div><label>Confirm your password:
+    <input type="password" formControlName="username">
+</label></div>
+<button type="submit">Register</button>
+<button type="reset">Cancel</button>
+</form>
